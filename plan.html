@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <link href="https://fonts.googleapis.com/css?family=Faster+One|Russo+One" rel="stylesheet">
+ <link rel="icon" type="image/png" href="images/favicon.png">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Run for Unity</title>
+</head>
+
+<body>
+
+<div class="top">
+<h1>f o <span>r u n</span> i t y</h1>
+</div>
+    
+<div class="nav">
+    <ul>
+        <li><a href="index.html">info</a></li>
+        <li><a href="plan.html">plan</a></li>
+        <li><a href="sign.html">sign up</a>
+            <ul>
+            <li><a href="sign.html#v">volunteer</a></li>
+            <li><a href="sign.html#p">partners</a></li>
+            </ul>
+        </li>
+    </ul>    
+</div>
+    
+<div class="content">
+    <div class="picba">
+       <div class="plana">
+        <h2>When?</h2>
+        <h3> Nov. 1st 2020</h3>
+        </div>
+        <div class="planb">
+        <h2>How long is this?</h2>
+        <h3>5.0 miles! Walkable (NY-style) in about 2 hrs</h3>
+        </div>
+        <div class="planc">
+        <h2>Where?</h2>
+        <h3>FDR 4 Freedoms Park, Roosevelt Island to Icahn Stadium, Randall's Island</h3>
+        </div>    
+    </div>
+    
+    <div class="pland">
+        <div class="container">
+            <div class="left">
+                <h2>Course Map &amp; Events</h2>
+                
+                <h4>The start signal will go off at 9:00 AM, but the course will remain open until 12:00 PM. Participants are encouraged to take their time interacting while winding past Socrates Sculpture Park and over the RFK bridge to the finish.</h4>
+
+                <h4>An email with results and pictures of the day's events will be shared to participants after the awards ceremony at 12:00 PM. Awards will be presented to the top 4 men's and women's finishers, as well as the top 3 group costumes voted by applause. Please be mindful of race rules concerning photography and costumes.</h4>
+            </div>
+            <div class="right">
+                <iframe src="https://www.google.com/maps/d/embed?mid=1dYwPa-wnrpM2yMcam2_54fG6G9f3DUNn" width="640" height="480"></iframe>
+            </div>
+        </div>
+    </div>
+    
+    <div class="picbb">        
+    <div class="plana">
+        <h2>Course</h2>
+        <h3>Open 9:00 AM - 12:00 PM</h3>
+        </div>
+        <div class="planb">
+        <h2>Awards</h2>
+        <h3>Ceremony at Icahn Stadium grass 12:00 PM</h3>
+        </div>
+        <div class="planc">
+        <h2>Festival</h2>
+        <h3>Live bands and global food stalls 11:00 AM to 2:00 PM</h3>
+        </div>    
+    </div> 
+    
+    <div class="pland">
+            <div class="middle">
+            <h2>Bibs &amp; Transportation</h2>
+                
+            <h4>Bib pick-up will run from Friday, October 30th until the morning of Run for Unity. Please present ID and your confirmation email at the office of Blink Fitness Grand Central during business hours or on the event date at the registration booths at Roosevelt Island.</h4>
+                
+            <h4>Large public parking garages are available on both islands. We recommend participants use the F subway line and Q102 bus or free Red Bus on Roosevelt Island. The picturesque Roosevelt Tramway connects to Midtown Manhattan but may be crowded on race day.
+            For Randall's Island, the 125th Street station for 4, 5, 6 trains in Manhattan similarly provides service via the M35 bus. Free golf-like shuttles traverse Randall's Island and can be hailed once on the island.</h4>
+            </div>
+    </div>
+    
+    <div class="picbc"> 
+     <div class="plana">
+        <h1>Countdown to Run for Unity!</h1>
+         <p id="demo"></p>
+            <script>
+            var countDownDate = new Date("Nov 1, 2020 9:00:00").getTime();
+            var x = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+              document.getElementById("demo").innerHTML = days + " days " + hours + " hrs "
+              + minutes + " m " + seconds + " s ";
+              if (distance < 0) {
+              clearInterval(x);
+              document.getElementById("demo").innerHTML = "Countdown over, time to Run for Unity!";
+                                }
+                                            }, 1000);
+            </script>
+    </div>    
+    </div>
+    
+</div>
+</body>
+</html>

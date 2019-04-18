@@ -1,0 +1,301 @@
+button a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #000000;
+    display: block;                      /* makes whole button clickable */
+    padding: 1em 4em;
+}
+button {
+  border: 2px solid #898989;             /* transparency would make it go over the nav bar sadly */
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+}
+.btna {
+    margin-top: 29em;
+    opacity: .4;
+}
+.btna h4 {
+    margin: auto;
+}
+.btnb {
+    margin-top: 1em;
+    padding: 0em 3em;
+    background-color: #424242;
+}
+button:hover {
+  color: #ffffff;
+  background-color: #898989;
+  opacity: 1;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.btna:hover > a {
+    color: white;
+}
+.nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 8px;
+    font-size: 24px;
+    font-family: 'Russo One', cursive;
+}
+.nav a:hover {
+    color: #000000;
+}
+.nav a:active {
+    color:#898989;
+}
+.nav ul {
+    display: flex;
+    padding: 6px 0px 6px 0px;
+    list-style-type: none;
+    justify-content: space-around;
+    background-color: #EB5E28;
+}
+.nav ul li ul {                         /* use javascript to avoid complicated hovering tab parts */
+  position: absolute;
+  display: none;
+  width: 150px;
+}
+.nav ul li:hover ul {
+    display: block;
+}
+.nav ul li ul li { 
+  display: block; 
+}
+.nav ul li ul li:hover {
+background: #c64017;
+}
+.nav ul li ul li a {
+    display: block !important;           /* to force cascading use !important, recommended by w3 here */
+}
+.nav {
+    margin: 85px 0 0 0;
+}
+.top, .nav {
+    position: fixed;
+    Left: 0px;
+    Right: 0px;
+}
+.top {
+    text-align: center;
+    top: 0px;
+    background-color: white;
+    padding-bottom: 16px;
+}
+.parent {
+    display: flex;
+    color: #8EB19D;
+}
+span {
+    color: #898989;
+}
+.top h1 {
+    font-family: 'Faster One', fantasy;
+    font-size: 500%;
+    margin: 0 16px;
+}
+h2 {
+    margin: 0;
+    color: #EB5E28;
+}
+.indexa h1 {
+    padding-top: 16em;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 6px #000000, -2px -2px 6px #000000, -2px 2px 6px #000000, 2px -2px 6px #000000;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+.indexb h2 {
+    font-family: 'Russo One', cursive;
+    padding-top: 2em;
+    text-shadow: none;
+}
+.indexb h4 {
+    margin-bottom: 3em;
+    margin-right: 6em;
+    margin-left: 6em;
+    text-align: left;
+    font-family: sans-serif;
+    padding: 0em 2em;
+}
+.indexc h1 {
+    padding-top: 1em;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 6px #000000, -2px -2px 6px #000000, -2px 2px 6px #000000, 2px -2px 6px #000000;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+p {
+  color: #ffffff;
+  font-size: 3em;
+  margin-top: 0px;
+  text-shadow: 2px 2px 6px #000000, -2px -2px 6px #000000, -2px 2px 6px #000000, 2px -2px 6px #000000;
+}
+.picaa h2 {
+    padding-top: 16em;
+}
+.picba .plana h2 {
+    padding-top: 16em;
+}
+.picbb .plana h2 {
+    padding-top: 12em;
+}
+.plana h1 {
+    padding-top: 16em;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 6px #000000, -2px -2px 6px #000000, -2px 2px 6px #000000, 2px -2px 6px #000000;
+    color: #FFFFFF;
+}
+.planb, .planc h2 {
+    padding-top: 2em;
+}
+.pland h2 {
+    font-family: 'Russo One', cursive;
+    padding-top: 2em;
+    text-shadow: none;
+}
+.pland h4 {
+    margin-bottom: 3em;
+    margin-right: auto
+    margin-left: auto;
+    text-align: left;
+    font-family: sans-serif;
+    padding: 0em 2em;
+}
+.picba, h2, h3 {
+    font-family: sans-serif;
+    text-shadow: 2px 2px 6px #000000, -2px -2px 6px #000000, -2px 2px 6px #000000, 2px -2px 6px #000000;
+}
+.picba, .picbb h3 {
+    color: white;
+}
+.picbb, h2, h3 {
+    font-family: sans-serif;
+    text-shadow: 2px 2px 6px #000000, -2px -2px 6px #000000, -2px 2px 6px #000000, 2px -2px 6px #000000;
+}
+.piccb h2 {
+    color: #ffffff;
+    padding-top: 12em;
+    padding-bottom: 2em;
+}
+.piccc h2 {
+    color: #ffffff;
+    padding-top: 12em;
+    padding-bottom: 2em;
+}
+.piccb h3 {
+    font-family: sans-serif;
+    text-shadow: 2px 2px 6px #000000, -2px -2px 6px #000000, -2px 2px 6px #000000, 2px -2px 6px #000000;
+    color: #ffffff;
+    padding: 1em 8em;
+}
+.piccc h3 {
+    font-family: sans-serif;
+    text-shadow: 2px 2px 6px #000000, -2px -2px 6px #000000, -2px 2px 6px #000000, 2px -2px 6px #000000;
+    color: #ffffff;
+    padding: 1em 8em;
+}
+html, body {
+    height: 100vh;
+    min-width: 580px;
+}
+body {
+    margin: auto 0 auto 0;
+    text-align: center;
+}
+.picaa {
+    background-image: url(images/running.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;               /* needed for parallax effect */
+}
+.picab {
+    background-image: url(images/unity.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.picba {
+    background-image: url(images/people.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 32px;
+}
+.picbb {
+    background-image: url(images/crowd.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.picbc {
+    background-image: url(images/splash.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.picca {
+    background-image: url(images/registrationb.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.piccb {
+    background-image: url(images/volunteer.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.piccc {
+    background-image: url(images/crepes.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+form {
+    text-align: center;
+    font-family: 'Russo One', cursive;
+    padding-top: 220px;
+    color: #ffffff;
+}
+.form label, input {
+    margin-top: 24px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.right, .left {
+    flex: 1;
+}
+.left {
+    padding: 0% 5%;
+}
+.middle {
+    padding: 0 15%;
+}
+iframe {
+    margin: 1em 0em;
+    height: 20em;
+    width: 30em;
+}
+@media screen and (max-width: 1000px) {
+  iframe {
+    height 10em;
+    width: 15em;
+    margin: 5em 0em;
+}
+@media screen and (max-width: 580px) {
+    .top {
+        font-size: 50%;
+        padding: 7%;
+    }
+}
+@media only screen and (max-device-width: 1366px) {     /* recommended by w3 for parallax*/
+  .parallax {
+    background-attachment: scroll;          
+  }
+}
